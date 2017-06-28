@@ -63,3 +63,20 @@ puts ages.sort.reverse.join(' ')
 
 #Part 4
 fav_movies["Beauty and the Beast"] = "1991", "2017"
+
+#Exercise 4
+
+#Part 1
+puts ages.select{|x| x < 30}
+
+#Part 2
+puts ages.max
+
+#Part 3
+puts coin_flip.count("heads")
+
+#Part 4
+fav_artists.delete("Drake")
+
+#Part 5
+cities_population["Toronto"] = "9.8M"
