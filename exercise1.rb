@@ -24,4 +24,25 @@ puts ages.sort
 ages << 0
 
 #Part 5
-puts fav_movies["The Matrix"]
+fav_movies["The Matrix"]
+
+#Exercise 2
+
+#Part 1
+puts fav_colours[-1]
+
+#Part 2
+cities_population["New York"] = "8.4M"
+
+#Part 3
+coin_flip.reverse
+
+#Part 4
+cities_population["Toronto"]
+
+#Part 5
+fav_artists.each do |artist|
+puts "I think #{artist} is great."
+end
+
+#Part 6
