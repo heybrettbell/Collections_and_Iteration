@@ -45,4 +45,21 @@ fav_artists.each do |artist|
 puts "I think #{artist} is great."
 end
 
-#Part 6
+#Exercise 3
+
+#Part 1
+puts fav_artists[0..1]
+
+#Part 2
+fav_movies.each do |movie, year|
+  puts "#{movie} came out in #{year}."
+end
+
+#Part 3
+puts ages.sort.reverse
+
+#Part 3.1
+puts ages.sort.reverse.join(' ')
+
+#Part 4
+fav_movies["Beauty and the Beast"] = "1991", "2017"
