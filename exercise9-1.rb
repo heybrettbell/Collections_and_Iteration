@@ -11,4 +11,4 @@ def list_current_groceries(groceries)
 end
 # puts list_current_groceries(grocery_list)
 # puts grocery_list
-list_current_groceries(grocery_list)
+list_current_groceries(grocery_list).count
