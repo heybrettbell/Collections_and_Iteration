@@ -125,9 +125,9 @@
 # #Part 3
 #
 # countries_info = [
-#    {"name" => "Canada", "continent" => "North America", "island" => "no"},
-#    {"name" =>"United States", "North America", "island" => "no" },
-#    {"name" =>"United Kingdom", "Europe", "island" => "yes" }
+#    {:name => "Canada", "continent" => "North America", "island" => "no"},
+#    {:name =>"United States", "North America", "island" => "no" },
+#    {:name =>"United Kingdom", "Europe", "island" => "yes" }
 #  ]
 
 #Exercise 6.1
@@ -152,3 +152,21 @@ p sum
 three_times_range = []
 50.times {|number| three_times_range << [num + 1] * 3}
 three_numbers.flatten!
+
+#Part 6
+countries_info = [
+  {:name => "Canada", "continent" => "North America", :island => false},
+  {:name =>"United States", "North America", :island => false },
+  {:name =>"United Kingdom", "Europe", :island => true }
+]
+
+not_islands = []
+
+
+not_islands = country_info.select do |country_location|
+  country_location[:island] == false
+end
+
+
+puts not_islands
+puts country_location
